@@ -1,3 +1,4 @@
+/*cuadros*/
 .morado{
     height: 150px;
     width: 150px;
@@ -24,4 +25,58 @@ align-items: center;
 justify-content: center;
 position: relative;
 }
-
+/*iconos*/
+#pieza:hover{
+    color: rgb(70, 247, 0);
+    cursor: pointer;
+    transform: scale(2.5);
+}
+#pieza{
+    padding: 10px;
+    margin:  auto;
+}
+#llave:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: scale(3.5);
+}
+#llave{
+    padding: 10px;
+    margin: auto;
+}
+#estrella:hover{
+    color:brown;
+    cursor: pointer;
+    transform: scale(3);
+}
+#estrella{
+    padding: 10px;
+    margin: auto;
+}
+#pers:hover{
+    color: chartreuse;
+    cursor: pointer;
+    transform: scale(3);
+}
+#pers{
+    padding: 10px;
+    margin: auto;
+}
+/*formulario*/
+.formulario{
+    background-color: blue;
+    height: 350px;
+    width: 200px;
+    border-radius: 20px;
+}
+/*ajedrez*/
+#tablero{
+    background-color: blanchedalmond;
+    height: 800px;
+    width: 800px;
+}
+#c1{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}

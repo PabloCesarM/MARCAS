@@ -1,0 +1,37 @@
+/*Ej bordes*/
+#box1,#box2,#box3,#box4{
+    padding: 10px;
+    margin: 20px;
+    width: 90px;
+}
+#box1{
+    border-top: 5px dotted blue;
+    border-left: 10px double goldenrod;
+    border-bottom: 10px ridge green;
+    border-right: 1px solid red;
+}
+#box2{
+    border: 5px solid blue;
+}
+#box3{
+    border-bottom: 5px solid goldenrod;
+    border-right: 5px solid goldenrod;
+    border-top: 5px solid sienna;
+    border-left: 5px solid sienna;
+}
+#box4{
+    border-top: 5px solid goldenrod;
+    border-left: 5px solid goldenrod;
+    border-bottom: 5px solid sienna;
+    border-right: 5px solid sienna;
+}
+/*ej hover*/
+#hover1{
+    color: red;
+}
+#hover1:hover{
+    color: green;
+}
+#hover2:hover{
+    font-size: larger;
+}

@@ -1,0 +1,161 @@
+/*Ejercicio color texto*/
+#l1{
+    color: blue;
+}
+#l3{
+    font-size: 24px;
+}
+#l4{
+    font-size: 28px;
+}
+#l5{
+    color: blue;
+}
+/*ej formato*/
+#formato1{
+    color: green;
+    text-decoration: underline;
+}
+#formato2{
+    color: red;
+}
+#formato3{
+    text-decoration: underline;
+}
+#formato4{
+    font-size: 40px;
+}
+#formato5{
+    color: blue;
+}
+#formato6{
+    color: red;
+    text-decoration: underline;
+}
+/*ejercicio texto*/
+h1{
+    letter-spacing: 5px;
+    text-align: center;
+}
+#p1{
+    text-transform: uppercase;
+    text-align-last: center;
+}
+#p2{
+    color: green;
+    letter-spacing: 10px 1.5px;
+    
+}
+#pa1{
+    text-decoration:line-through;
+}
+#div1{
+    width: 200px;
+    height: 35px;
+    border: 3px 3px;
+    background-color:lightgray;
+    text-align: center;
+    box-shadow: -5px -7px 3px  gray ;
+    padding-top: 15px;
+}
+#div2{
+    width: 200px;
+    height: 35px;
+    border: 3px 3px black;
+    background-color:lightgray;
+    text-align: center;
+    box-shadow: -6px -6px 7px gray ;
+    padding-top: 15px;
+}
+#div3{
+    width: 200px;
+    height: 35px;
+    border: 3px 3px ;
+    background-color:lightgray;
+    text-align: center;
+    box-shadow: -5px -5px 0px 5px gray;
+    padding-top: 15px;
+}
+#frase1{
+    color: white;
+    text-shadow: 2px 2px 5px red;
+    border-color: black;
+}
+#tfuentes{
+    color: green;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Rubik+Glitch+Pop&display=swap');
+#subtitulo{
+    font-family: 'Poor Story', system-ui;
+    color: yellow;
+}
+#div4{
+    background-color:darkorchid;
+    width: 250px;
+    height: 55px;
+    border-style: dotted;
+    text-align: center;
+    padding-top: 35px;
+}
+#div5{
+background-color: black;
+color: white;
+width: 130px;
+height: 40px;
+text-align: center;
+margin: 30px;
+padding-top: 20px;
+border-bottom-right-radius: 50px;
+}
+#div6{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+    border-bottom-right-radius: 40px;
+}
+#div7{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+    border-bottom-right-radius: 30px;
+}
+#div8{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#div9{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+#div10{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+    border-radius: 90px;
+}

@@ -1,0 +1,17 @@
+h1{
+    border-style: dotted; /*pone borde con puntitos*/
+    border-width: 20px /*arriba*/ 10px/*derecha*/ 5px/*abajo*/ 2px/*izquierda*/;
+    border-color: darkgoldenrod;
+    
+}
+#p1{
+    border-style: dashed; /**/
+    border-width:medium;
+    border-color: aqua blue red yellowgreen;
+}
+#p2{
+    border-style:groove;
+    border-width: 10px;/*tamaño del borde*/
+    border-right-style: dotted; /*aplicar distintos estilos*/
+    border-radius: 5px; /*para redondear la esquina*/
+}

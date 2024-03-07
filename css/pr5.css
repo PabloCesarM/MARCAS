@@ -1,0 +1,29 @@
+/* selectores*/
+*{ /*selector universal*/
+    border: 10px red;
+    background-color: burlywood;
+    color: black;
+}
+h1,h2,h3{
+    color: blue;
+}
+.c1{
+    color: blueviolet;
+    margin-top: 50px;   /*separa 50px de la parte de arriba, si pone 50% ocupa la mitad de la ventana*/
+    margin-bottom: 50px;/*separa 50px de la parte de abajo*/
+    margin-left: 50px;  /*separa 50px de la parte de izq*/
+    margin-right: 50px; /*separa 50px de la parte de dcha*/
+    margin: 50px; /*afecta a todos los lados si solo se pone un valor*//*arriba dcha abajo izq*/
+    padding: 20px;  /*padin -> separacion entre el texto y el margen*/
+}
+.c2{
+    background-color: aqua;
+}
+/*span agrupar cosas
+div agrupar bloques*/
+p span{ /*solo los span que estan dentro de un parrafo*/
+    font-size: 30px;
+}
+span{   /*para que afecte alos que estan fuera de los parrafos*/
+    font-size: 50px;
+}

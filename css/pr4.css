@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Rubik+Burned&display=swap');
+h1{
+    font-family: 'Rubik Burned', system-ui;
+    color: blue;
+}
+p{
+    font-family: 'Princess Sofia', cursive;
+}

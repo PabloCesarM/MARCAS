@@ -1,0 +1,10 @@
+ul{
+    /*modificar el puntito de las listas*/
+    list-style-image: url('./sqpurple.gif');
+}
+ol{
+    /**/
+    list-style-type:decimal ;
+    /**/
+    list-style-position: outside;
+}

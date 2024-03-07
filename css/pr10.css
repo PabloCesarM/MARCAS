@@ -1,0 +1,24 @@
+table{
+    border: 5px solid red;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 2px solid blue;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    height: 50px;   /*dar la altura*/
+    font-size: 40px; /*aumentar el tamaño de la letra*/
+}
+td{
+    height: 30px;
+    /*alinear verticalmente*/
+    vertical-align: bottom;
+}
+/*poner las filas impares de distinto color con odd y las pares con even*/
+tr:nth-child(even){
+    background-color: aquamarine;
+}

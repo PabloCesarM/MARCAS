@@ -1,0 +1,44 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    text-align: center;
+    line-height: 100px;
+    background-color: burlywood;
+}
+
+.static{
+    position: static;/*posicion estatica y no se desplaza*/
+    top: 40px;
+}
+
+.relative{
+    position: relative;/*se desplaza hacia donde le digamos*/
+    top: 40px;
+    right: 20px;
+}
+
+.absolute{
+    position: absolute; 
+    /*se posiciona de forma absoluta respecto a su contenedor
+    deja su espacio para el resto de elementos*/
+    top: 40px;
+}
+
+.fixed{
+    position: fixed;
+    /*no sigue el curso normal y se queda fijo en la pagina*/
+    top: 20px;
+    left: 400px;
+}
+.contsticky{
+    height: 1000px;
+}
+
+.sticky{
+    position: sticky;
+    /*se queda en la parte superior al hacer scroll en la pagina*/
+    left: 500px;
+    top: 10px;
+}

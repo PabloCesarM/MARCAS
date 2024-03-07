@@ -1,0 +1,48 @@
+.gridcontainer{
+    display: grid;
+    /*inline grid se ajusta al tamaño de los div interiores*/
+    /*grid-template-columns: auto auto auto;
+    /*que hace con las columnas*/
+    /*grid-template-rows: 30px 50px auto;
+    /*define como son las filas se puede utilizar fr para determiar la cantidad de fracciones que utiliza
+    y % para determinar la parte que utiiliza del espacio total*/
+    grid-template-areas: /*filas*/ 'header header header'/*columna izq*/'menu main aside'
+    'menu footer footer';
+    grid-row-gap: 20px;
+    /*separa la cantidad que le pongas*/
+    background-color: bisque;
+    justify-content: center;
+    /*ajustar el contenido a la posicion que le indiquemos horizontal*/
+    align-content: start;
+    /*justificar el contenido dentro del container verticalmente*/
+    height: 400px;
+
+}
+.gridcontainer div{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+}
+.it1{
+    /*grid-column: 1 / 3;/*1/3 quiere decir que empieza en la primera columna y llega hasta la tercera*/
+    /*grid-column: 2 / span 2;
+    /*empiezas en la segunda y se expande 2*/
+    /*grid-row: 1 / 3;
+    /*igual para las columnas*/
+    /*grid-area: /*comienzo fila*//*2 / /*comienzo columna*//*1 / /*final fila*//*4 / /*final columna*//*3;
+    /*reune las dos propiedades*/
+    grid-area: header;
+}
+.it2{
+    grid-area: menu;
+}
+.it3{
+    grid-area: main;
+}
+.it4{
+    grid-area: aside;
+}
+.it5{
+    grid-area: footer;
+}

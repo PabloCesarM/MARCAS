@@ -1,0 +1,45 @@
+/*se utiliza para dar estilo a la las paginas para no tener que */
+h1{
+    color: red;
+    background-color: black;
+    text-align: center;
+    font-size: 50px; /*tamaño de la fuente*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*opacity: 0.5;*/
+    text-shadow: 3px 2px 2px blue; /*sombrear 1ºpx dcha-izq 2º up-down 3º */
+}
+p{
+    color: blue;
+    text-align: justify;    /*ajusta el texto a la linea*/
+    text-align-last: center; /*centrar el texto*/
+    text-decoration: underline; /*subrayar*/
+}
+p#parrafo1{
+    background-color:chartreuse
+}
+p#parrafo2{
+    background-color: aliceblue;
+    text-transform:capitalize; /*como se escribr cada palabra*/
+    letter-spacing: 5px; /*separacinentre letras*/
+    line-height: 0.9;  /*separacion de lineas*/
+}
+/*comentario*/
+body{
+    background-image: url("./css.jpg"); /*poner una imagen de fondo*/
+    background-repeat: no-repeat; /*que no se repita la imagen*/
+}
+a{
+    text-decoration: none;/*para quitar un subrayado de un enlace*/
+    color: brown;
+    font-size: 50px;
+}
+img{
+    vertical-align: super;
+}
+div{
+    border: 3px 3px black;  /*poner un cuadro*/
+    width: 30px; /*ancho del cuadro*/
+    height: 30px;/*altura del cuadro*/
+    background-color: aquamarine;
+
+}

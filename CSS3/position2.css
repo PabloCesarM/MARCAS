@@ -1,0 +1,28 @@
+.contenedor{
+    max-width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 1000px;
+}
+
+/*a.caja1, a.caja2, a.caja3, a.caja4, a.caja5,
+ a.caja6, a.caja7, a.caja8, a.caja9*/
+ a[class|="caja"]{
+    display: inline-block;
+    position: static;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: yellow;
+}
+
+a.caja-5{
+    background-color: red;
+    position: sticky;
+    left: 30px;
+    top: 30px;
+}

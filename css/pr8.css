@@ -1,0 +1,17 @@
+h1:hover,p:hover{ /*hover sirve para que cuando pase el raton por encima*/
+    color: blue;
+    background-color: cadetblue;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    font-size: 30px;
+}
+a:hover{
+    color: chocolate;
+    font-size: 50px;
+}
+a:active{
+    color: crimson;
+}

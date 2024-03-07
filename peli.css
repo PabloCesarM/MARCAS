@@ -1,0 +1,17 @@
+pelicula {
+display: block;
+font-size: xx-large;
+font-weight: bold;
+margin-top: 8px;
+margin-left: 8px;
+}
+director {
+display: block;
+font-size: medium;
+top: 21px;
+position: relative;
+}
+director:before {
+content: "Director: ";
+font-weight: bold;
+}

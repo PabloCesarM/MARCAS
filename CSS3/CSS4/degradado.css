@@ -1,0 +1,8 @@
+div{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right bottom, red,yellow, red);
+    /*background-image: linear-gradient(150deg, red,yellow);*/
+    
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!--Ejercicio 1-->
+    <table border="1" style="width: 100%">
+        <caption><b>ORDENADORES</b></caption>
+        <tbody>
+        <tr style="text-align: center;">
+            <td ></td>
+            <td >Marca</td>
+            <td>Modelo</td>
+            <td>Procesador</td>
+            <td>Memoria RAM</td>
+            <td>Disco duro</td>
+            <td>Sistema operativo</td>
+            <td>Precio orientativo</td>
+            <td>Imagen</td>
+        </tr>
+        <tr style="background-color:blanchedalmond"style="text-align: center;">
+            <td ><b>Samsung Galaxy Book3</b></td>
+            <td >Samsung</td>
+            <td>S7000</td>
+            <td>i7</td>
+            <td>12</td>
+            <td>512GB</td>
+            <td>Windows</td>
+            <td>985€</td>
+            <td><img src="https://m.media-amazon.com/images/I/51MaVlEiLCL._AC_UF1000,1000_QL80_.jpg" height="50"></td>
+        </tr>
+        <tr style="background-color:lightgreen">
+            <td ><b>Dell Optiplex 7050</b></td>
+            <td >Dell</td>
+            <td>Optiplex 7050</td>
+            <td>i5</td>
+            <td>8</td>
+            <td>240GB</td>
+            <td>Windows</td>
+            <td>695€</td>
+            <td><img src="https://wdixital.com/wp-content/uploads/dell-optiplex-7050-sff.jpg" height="50"></td>
+        </tr>
+        <tr style="background-color:aquamarine;">
+            <td colspan="3"><b>Torre Lenovo V530</b></td>
+            <td>i5</td>
+            <td>8</td>
+            <td>240GB</td>
+            <td>Windows</td>
+            <td>795€</td>
+            <td><img src="https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MTk5NzYxfGltYWdlL3BuZ3xoMDQvaDAyLzEwNjI4Mjk3MzU5MzkwLnBuZ3wwNjVlNjI2OTllMDkxYTI3OTY2ZDI1Y2Q3YzdkNDUzMTMyZTI0Nzk2ZjkzOWViOGYxODQ5MTllMDE4MjM3ZDA4/lenovo-desktop-v530-tower-hero.png" height="50" ></td>
+        </tr>
+    </tbody>
+    </table>
+    <br>
+    <br>
+    <!--Ejercicio 2-->
+    <h1><b>FORMULARIO</b></h1>
+    <br>
+    <fieldset>
+        <legend>Datos personales de identificación</legend>
+        <label for="dni">DNI/NIE</label>
+        <input type="text" name="dni" id="" placeholder="Introduzca aquí su DNI">
+        <label for="apell">Fecha Caducidad</label>
+        <input type="date" name="" id="">
+    </fieldset>
+    <label for="banco">Domiciliación Bancaria</label>
+    <input type="text" name="" id="" maxlength="22">
+    <br>
+    <fieldset>
+        <label for="dir">Direccion</label>
+        <input type="text" name="dir" id="" placeholder="Introduzca aquí su dirección">
+        <label for="pob">Población</label>
+        <input type="text" name="pob" id="" placeholder="Introduzca aquí su población">
+        <br>
+        <label for="pob">Localidad</label>
+        <input type="text" name="pob" id="" placeholder="Introduzca aquí su localidad">
+        <label for="postal">Código postal</label>
+        <input type="number" name="" id="" minlength="5" maxlength="5" max="52081">
+    </fieldset>
+    <label for="email">Correo Electronico</label>
+    <input type="text">
+    <br>
+    <label for="trab">Tipo de trabajo realizado</label>
+    <select name="" id="" size="1" multiple>
+        <option value="uno">Cuenta ajena</option>
+        <option value="dos">Autónomo</option>
+        <option value="tres">No ha trabajado</option>
+    </select>
+    <br>
+    <label for="dni">DNI Conyuge</label>
+    <input type="text" name="dni" id="" placeholder="Introduzca aquí el DNI de su conyuge">
+    <br>
+    <label for="matrimonio"><i>¿Existe Vínculo matrimonial?</i></label>
+    <input type="radio" name="radio1" id="">Si
+    <input type="radio" name="radio1" id="">No
+    <br>
+    <label for="observaciones">Observaciones</label>
+    <textarea maxlength="250" name="" id="" cols="100" rows="5" placeholder="Escribe" accesskey="s"></textarea>
+    <br>
+    <input type="submit" value="Enviar datos">
+    <input type="reset" value="Limpiar">
+    <button type="submit">
+        <img src="./send.svg" alt="" width="30">
+    </button>
+    <button type="reset">
+        <img src="./reset.svg" alt="" width="30">
+    </button>
+</body>
+</html>

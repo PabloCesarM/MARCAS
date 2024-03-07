@@ -1,0 +1,9 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 2px solid yellow;
+    padding: 30px;
+    margin: 100px; /*afecta a la separacion con el exterior*/
+    
+}

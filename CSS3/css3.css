@@ -1,0 +1,27 @@
+.morado{
+    height: 150px;
+    width: 150px;
+    background-color:darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verde{
+width: 50px;
+height: 50px;
+background-color: rgb(205, 255, 192);
+display: flex;
+align-items: center;
+justify-content: center;
+position:relative;
+}
+.rojo{
+width: 25px;
+height: 25px;
+background-color: rgb(245, 11, 11);
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+

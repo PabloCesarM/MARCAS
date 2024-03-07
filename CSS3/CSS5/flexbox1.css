@@ -1,0 +1,38 @@
+*{
+    /**/
+    box-sizing: border-box;
+}
+
+.flexcontainer{
+    display: flex;
+    /*row por defencto(en fila), COLUM*/
+    flex-direction: row;
+    /*centrar*/
+    /*los que no quepan a la línea de abajo*/
+    flex-wrap: wrap;
+    /*auna en una linea las dos anteriores*/
+    flex-flow: row nowrap;
+    /*justificar el contenido-space-around (pone espacio en medio)
+    space-between(ajusta a los laterales)*/
+    /*justify-content: center;*/
+    /*alinear item(numero) en el eje secundario*/
+    /*align-items: baseline;/*strech(intenta ocupar todo el espacio disponible)
+    BASELINE(alinea por la base del número)*/
+    height: 400px;
+    /*coloca las cajas*/
+    align-content: center;
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+
+.flexcontainer div{
+    width: 100px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+}

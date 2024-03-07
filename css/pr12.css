@@ -1,0 +1,28 @@
+div{
+    border: 2px solid yellow;
+    margin: 55px 0px 7px 7px;
+    padding: 7px;
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 200px;
+}
+#caja1{
+    float: left;
+    /*sigo viebdo lo que sobra*/
+    overflow: visible;
+}
+#caja2{
+    float: left;
+    /*ya no aparece lo que sobra*/
+    overflow: hidden;
+}
+#caja3{
+    float: left;
+    /*solo pone una barra de scroll si la necesita*/
+    overflow: auto;
+}
+#caja4{
+    float: left;
+    /*obliga a que se vea la barra de scroll*/
+    overflow: scroll;
+}

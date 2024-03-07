@@ -1,0 +1,19 @@
+input[type=text]{
+    width: 100%;
+    height: 110px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: yellow;
+    color: blueviolet;
+    background-image: url(./buscar.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    /*pointer hace que salga la mano al poner el cursor encima*/
+    cursor: pointer;
+}
+input[type=text]:focus{
+    background-color: red;
+}
+
